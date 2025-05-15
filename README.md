@@ -162,9 +162,8 @@ The XONIX project fulfills its intended goal as a feature-rich, interactive arca
 
 ---
 
-## 👨‍💻 Authors
+## 👨‍💻 Author
 
 * **Taha Ebaad**
-* **Syed M. Mesum Ali Naqvi**
 
 > *This project was developed as part of the Programming Fundamentals final project.*
