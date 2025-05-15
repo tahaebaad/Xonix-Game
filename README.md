@@ -12,7 +12,7 @@ A 2D Xonix-style arcade game built using C++ and the SFML 3.0.0 library.
 
 ## Project Description
 
-This is a modern, interactive recreation of the classic Xonix game developed as a final project for the Programming Fundamentals course. Developed in C++ using SFML, the game features both single-player and two-player modes, multiple difficulty levels, power-ups, geometric enemy movement, scoreboards, and rich audio-visual feedback.
+Xonix is a modern, interactive recreation of the classic Xonix game developed as a final project for the Programming Fundamentals course. Developed in C++ using SFML, the game features both single-player and two-player modes, multiple difficulty levels, power-ups, geometric enemy movement, scoreboards, and rich audio-visual feedback.
 
 The objective of the game is to claim territory by capturing tiles while avoiding enemies. The project includes extensive game mechanics, menus, file handling, timers, and custom logic to deliver an engaging player experience.
 
