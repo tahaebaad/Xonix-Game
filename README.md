@@ -6,7 +6,7 @@ A 2D Xonix-style arcade game built using C++ and the SFML 3.0.0 library.
 
 ### Gameplay Link
 
-*Coming Soon...*
+(https://www.linkedin.com/posts/taha-ebaad-819b8328b_cpp-sfml-gamedevelopment-activity-7328885649569169408-QjBi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZ5lNUBO_-anndHWlDvE3UmJfwqGNORPsk)
 
 ---
 
@@ -53,7 +53,7 @@ The objective of the game is to claim territory by capturing tiles while avoidin
 ### Menu System
 
 * Implemented via `Menu()`, `levelMenu()`, `playerModeMenu()`
-* Options for difficulty, game mode, and exit
+* Options for difficulty, game mode, scorecard, and exit
 * End-game screen shows score, tile and move counts
 
 ### Difficulty & Enemies
@@ -61,22 +61,22 @@ The objective of the game is to claim territory by capturing tiles while avoidin
 * Easy: 2 Enemies
 * Medium: 4 Enemies
 * Hard: 6 Enemies
-* Continuous: Enemies increase every 30 seconds (timer-based logic)
+* Continuous: Starts from 2 then Enemies increase every 20 seconds (timer-based logic)
 
 ### Movement and Scoring
 
-* `tileCount1/2` and `moveCount1/2` track player progress
-* Move counted only on full tile capture
+* `tileCount1` `tileCount2` and `moveCount1` `moveCount2` track player progress
+* Move counted only on Successful tile capture
 
 ### Enemy Mechanism
 
 * Speed increases every 20 seconds
-* Geometric motion after 30 seconds using timer logic
+* Geometric motion (Zig-Zag and Circular) after 30 seconds using timer logic
 * `move()` function handles pathing and pattern changes
 
 ### Power-Ups
 
-* Triggered at scores: 50, 70, 100, 130, 160...
+* Triggered at scores: First at 50, then from 70 to every 30th after i.e. 100, 130, 160...
 * Freeze enemies/opponents for 3 seconds
 * Visual cue: background turns magenta
 * Logic managed by `PowerUpCount`, `PowerUpActive`
@@ -85,7 +85,7 @@ The objective of the game is to claim territory by capturing tiles while avoidin
 
 * Stores top 5 scores with time and player names
 * Displays results post-game
-* Player names with `!` indicate death during gameplay
+* Player names with `!` e.g !Player1 indicate death during gameplay
 
 ---
 
@@ -106,7 +106,7 @@ The objective of the game is to claim territory by capturing tiles while avoidin
 
 ## Audio-Visual Enhancements (Bonus)
 
-* Magenta background during power-ups
+* Magenta background during power-ups, Opposite Player and Enemies Paused for 3 seconds.
 * `.wav` sound effects for tile capture, game over, and power-up activation
 * Managed with `sf::SoundBuffer` and `sf::Sound`
 
@@ -156,13 +156,13 @@ Ensure all asset files (images, audio, fonts, etc.) are in the same directory as
 
 ---
 
-## 🧾 Conclusion
+## Conclusion
 
 The XONIX project fulfills its intended goal as a feature-rich, interactive arcade game. It combines game logic, real-time graphics, audio feedback, and file handling, reinforcing our understanding of C++ fundamentals and event-driven programming.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 * **Taha Ebaad**
 
